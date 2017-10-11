@@ -1,0 +1,4 @@
+time_out_small : 65
+
+time_interval : 0.001
+time_interval_times : time_out_small / time_interval

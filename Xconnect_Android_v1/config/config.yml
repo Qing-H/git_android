@@ -1,0 +1,64 @@
+#读取格式如下：
+#from utils.config import Config
+#phone_num_a = Config().get('phone_num_a')
+#password_a = Config().get('password_a')
+#msg_1 = Config().get('msg_1')
+#time_interval_times = Config().get('time_interval_times') ..
+#appium -U d4fdce7 -p 4743 -bp 57365 --session-override --log appiumtest_a.log    黑米
+#appium -U 174ac0047d43 -p 4753  -bp 56494 --session-override --log appiumtest_b.log   白
+
+
+path: D:/git/sample-code/sample-code/apps/xconnect-android-v0.4.0-debug.apk
+path2: D:/git/sample-code/sample-code/apps2/xconnect-android-v0.4.0-debug.apk
+#url: http://localhost:4743/wd/hub
+#url2: http://localhost:4763/wd/hub
+url2: http://localhost:4743/wd/hub
+url: http://localhost:4753/wd/hub
+
+test_path: \\test
+report_path: \\report\\xconnect_report.html
+
+phone_num_a: 15951903161
+password_a: 123456
+phone_num_b: 15951903162
+password_b: 123456
+port_a: 4743
+port_b: 4763
+
+#device_a: d4fdce7  #黑色小米
+#device_b: 174ac0047d43   #白色小米
+device_b: d4fdce7  #黑色小米
+device_a: 174ac0047d43   #白色小米
+
+device_c: 3975a869   #黑色OPPO
+device_d: KWG5T16321043388   #金色华为
+
+msg_1: 62你好
+msg_2: 主页群，你好
+msg_3: 会话页群，你好
+
+old_group_1: xuelei3161、xuelei3162、xuelei3163
+old_group_2: xuelei3161、xuelei3162、xuelei3164
+
+new_group_1: 主页群
+new_group_2: 会话页群
+
+group_name_1: 本组成员
+group_name_2: 测试组
+group_name_2_1: 测试组1
+
+friends_name_1: xuelei3161
+friends_name_2: xuelei3162
+friends_name_3: xuelei3163
+friends_name_4: xuelei3164
+
+button_name_1: 会话删除
+button_name_2: 会话置顶
+button_name_3: 取消置顶
+
+time_out_small: 5
+
+time_interval: 0.001
+time_interval_times: 500
+
+
